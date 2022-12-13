@@ -1,6 +1,9 @@
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -15,26 +18,23 @@ button {
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 8px 60px;
-}
-
-.hero-content {
-    font-size: 18px;
-    padding: 20px;
+    padding: 0px 300px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.hero-content h1 {
-    font-size: 48px;
-    font-weight: bolder;
-}
 
-ul {
+.header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 16px;
+    flex: 1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .right-links {
@@ -43,11 +43,19 @@ ul {
     font-size: 18px;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+
+.hero-content {
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 48px
 }
 
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
 
 .hero .image {
     flex-basis: 400px;
@@ -61,6 +69,7 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 32px;
+    flex: 1;
 }
 
 .info-section .title {
@@ -107,6 +116,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     padding: 180px 260px;
+    flex: 1;
 }
 
 .quote {
@@ -128,6 +138,7 @@ ul {
     margin: 48px;
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 
