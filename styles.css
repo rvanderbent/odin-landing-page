@@ -1,0 +1,57 @@
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 60px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-content {
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 4px 24px;
+    border-radius: 4px;
+    border: none;
+}
+
+.image {
+    flex-basis: 400px;
+    background-color: grey;
+    text-align: center;
+    padding: 70px 70px;
+}
+
+
