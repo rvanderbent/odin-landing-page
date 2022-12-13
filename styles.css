@@ -21,6 +21,7 @@ button {
     padding: 0px 600px 100px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 
@@ -49,6 +50,7 @@ button {
     padding: 20px;
     display: flex;
     justify-content: center;
+    flex: 1;
     gap: 48px
 }
 
