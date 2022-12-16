@@ -1,9 +1,15 @@
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 button {
@@ -22,12 +28,11 @@ button {
 }
 
 .hero-container {
-    padding: 48px 48px 100px;
+    padding: 0px 48px 100px;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
 }
-
 
 .header {
     list-style: none;
@@ -63,11 +68,12 @@ button {
     font-weight: bolder;
 }
 
-.hero .image {
-    flex-basis: 400px;
-    background-color: grey;
+.hero img {
+    height: auto; 
+    width: auto; 
+    max-width: 1000px; 
+    max-height: 1000px;
     text-align: center;
-    padding: 70px 70px;
 }
 
 .info-section {
@@ -109,6 +115,13 @@ button {
     border-radius: 16px;
 }
 
+.card img {
+    height: 200px; 
+    width: 200px; 
+    object-fit: cover;
+    border-radius: 12px;
+}
+
 .card .text {
     display: block;
     color:#1F2937;
@@ -125,7 +138,8 @@ button {
 }
 
 .filler {
-    flex: 1;
+    flex: 1 1 auto;
+    width: 800px
 }
 
 .quote-content {
