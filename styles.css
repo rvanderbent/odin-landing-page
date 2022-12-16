@@ -16,12 +16,16 @@ button {
 }
 
 .hero {
+    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0px 600px 100px;
+}
+
+.hero-container {
+    padding: 48px 48px 100px;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 
@@ -49,7 +53,7 @@ button {
     font-size: 18px;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex: 1;
     gap: 48px
 }
@@ -115,10 +119,21 @@ button {
     background-color: #E5E7EB;
     color: #1F2937;
     display: flex;
+    padding: 180px 0px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.filler {
+    flex: 1;
+}
+
+.quote-content {
+    display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     justify-content: center;
-    padding: 180px 650px;
-    flex: 1;
+    width: 900px;
 }
 
 .quote {
@@ -134,18 +149,18 @@ button {
 }
 
 .CTA {
+    display: flex;
+}
+
+.CTA-block {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
     padding: 48px 100px;
-    margin: 130px 680px;
+    margin: 130px 180px;
     display: flex;
     justify-content: space-between;
-    flex: 1;
-}
-
-
-.CTA .title {
+    flex: 1 1 auto;
     font-size: 24px;
     font-weight: bold;
 }
